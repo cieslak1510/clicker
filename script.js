@@ -9,21 +9,21 @@ function clicker(){
 
 function check(){
     if(score>100 && score<=200){
-        img.src = "img/stone.png";
+        img.src = "img/Stone.png";
     }
     else if(score>200 && score<=300){
-        img.src = "img/iron.png";
+        img.src = "img/Iron.png";
     }
      else if(score>300 && score<=400){
-        img.src = "img/gold.png";
+        img.src = "img/Gold.png";
     }
      else if(score>400 && score<=1000){
-        img.src = "img/diamond.png";
+        img.src = "img/Diamond.png";
     }
      else if(score>1000){
-        img.src = "img/boss.jpg";
+        img.src = "img/Boss.jpg";
     }
     else{
-        img.src = "img/dirt.png";
+        img.src = "img/Dirt.png";
     }
 }
